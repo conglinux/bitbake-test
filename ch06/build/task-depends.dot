@@ -1,0 +1,5 @@
+digraph depends {
+"second.do_build" [label="second do_build\n:1.0-r1\n/home/liang/work/test/test/ch06/build/../meta-tutorial/recipes-tutorial/second/second_1.0.bb"]
+"second.do_build" -> "second.do_mypatch"
+"second.do_mypatch" [label="second do_mypatch\n:1.0-r1\n/home/liang/work/test/test/ch06/build/../meta-tutorial/recipes-tutorial/second/second_1.0.bb"]
+}

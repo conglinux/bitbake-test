@@ -1,0 +1,20 @@
+#t possible not run with each shell, 
+#todo, test with zsh
+if [ "$BASH_SOURCE" = "$0" ] ; then
+    echo "not running included!"
+    echo "source this file to use it"
+    exit 1
+fi 
+
+
+
+#bbplay_root_dir=$(dirname $(readlink -f "$BASH_SOURCE"))
+bitbake_root_dir=/home/liang/work/test/bitbake
+
+if [ -d $bitbake_root_dir ] ; then
+  export PATH=$bitbake_root_dir/bin:$PATH
+  export PYTHONPATH=$bitbake_root_dir/lib:$PYHTONPATH
+else
+  echo "ERROR: $bitbake_root_dir does not exist"
+  
+fi
