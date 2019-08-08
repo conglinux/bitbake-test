@@ -232,3 +232,439 @@ Processing Client
 Disconnecting Client
 No timeout, exiting.
 Exiting
+--- Starting bitbake server pid 68471 at 2019-08-05 11:42:55.902880 ---
+Started bitbake server pid 68471
+DEBUG: BBCooker starting 1564976575.916187
+DEBUG: BBCooker pyinotify1 1564976575.9394383
+DEBUG: BBCooker pyinotify2 1564976575.9399965
+DEBUG: BBCooker pyinotify3 1564976575.9599473
+DEBUG: BBCooker pyinotify complete 1564976575.9604094
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-tutorial
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-tutorial/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564976575.9879246
+DEBUG: BBCooker startup complete 1564976575.9884117
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'prefile': [], 'dump_signatures': [], 'invalidate_stamp': None, 'postfile': [], 'extra_assume_provided': [], 'abort': True, 'debug': 0, 'profile': False, 'dry_run': False, 'force': False, 'verbose': False, 'debug_domains': [], 'server_timeout': None}, {'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_TYPE': 'x11', 'PWD': '/home/liang/work/test/test/test01/build', 'XMODIFIERS': '@im=fcitx', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_IM_MODULE': 'fcitx', 'IM_CONFIG_PHASE': '1', 'UPSTART_INSTANCE': '', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'DISPLAY': ':0', 'QT_ACCESSIBILITY': '1', 'CLUTTER_IM_MODULE': 'xim', 'GTK2_MODULES': 'overlay-scrollbar', 'SHLVL': '1', 'QT4_IM_MODULE': 'fcitx', 'UPSTART_JOB': 'unity-settings-daemon', 'HOME': '/home/liang', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_CURRENT_DESKTOP': 'Unity', 'USER': 'liang', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'XAUTHORITY': '/home/liang/.Xauthority', 'XDG_RUNTIME_DIR': '/run/user/1000', 'WINDOWID': '62914570', 'OLDPWD': '/home/liang/work/test/test/test01', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'LANGUAGE': 'zh_CN:zh', 'DESKTOP_SESSION': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'GNOME_KEYRING_PID': '', 'LANG': 'zh_CN.UTF-8', 'XDG_VTNR': '7', 'SHELL': '/bin/bash', 'XDG_SEAT': 'seat0', 'LOGNAME': 'liang', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'TERM': 'xterm-256color', 'QT_IM_MODULE': 'fcitx', 'UPSTART_EVENTS': 'started starting', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'XDG_SESSION_ID': 'c2', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'INSTANCE': 'Unity', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'JOB': 'gnome-session', 'SESSIONTYPE': 'gnome-session', 'GDM_LANG': 'zh_CN', 'VTE_VERSION': '4205', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'GNOME_KEYRING_CONTROL': '', 'LIBGL_ALWAYS_SOFTWARE': '1', 'GDMSESSION': 'ubuntu', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path'}, ['/home/liang/work/test/bitbake/bin/bitbake']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['getVariable', 'BBTARGETS']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 68479 at 2019-08-05 11:43:04.301471 ---
+Started bitbake server pid 68479
+DEBUG: BBCooker starting 1564976584.3144224
+DEBUG: BBCooker pyinotify1 1564976584.3375335
+DEBUG: BBCooker pyinotify2 1564976584.3380313
+DEBUG: BBCooker pyinotify3 1564976584.3575037
+DEBUG: BBCooker pyinotify complete 1564976584.3579543
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-tutorial
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-tutorial/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564976584.3848193
+DEBUG: BBCooker startup complete 1564976584.385289
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'abort': True, 'extra_assume_provided': [], 'dump_signatures': [], 'debug': 0, 'force': False, 'dry_run': False, 'prefile': [], 'profile': False, 'server_timeout': None, 'invalidate_stamp': None, 'verbose': False, 'debug_domains': [], 'postfile': []}, {'LIBGL_ALWAYS_SOFTWARE': '1', 'XDG_SESSION_TYPE': 'x11', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'XDG_SESSION_ID': 'c2', 'GDMSESSION': 'ubuntu', 'OLDPWD': '/home/liang/work/test/test/test01', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'USER': 'liang', 'QT_IM_MODULE': 'fcitx', 'VTE_VERSION': '4205', 'SHELL': '/bin/bash', 'HOME': '/home/liang', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'TERM': 'xterm-256color', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'LANGUAGE': 'zh_CN:zh', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LOGNAME': 'liang', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'GNOME_KEYRING_CONTROL': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WINDOWID': '62914570', 'XDG_VTNR': '7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/liang/.Xauthority', 'INSTANCE': 'Unity', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'GNOME_KEYRING_PID': '', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'UPSTART_INSTANCE': '', 'UPSTART_JOB': 'unity-settings-daemon', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'LANG': 'zh_CN.UTF-8', 'GTK2_MODULES': 'overlay-scrollbar', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'Unity', 'UPSTART_EVENTS': 'started starting', 'GTK_IM_MODULE': 'fcitx', 'SHLVL': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GDM_LANG': 'zh_CN', 'DESKTOP_SESSION': 'ubuntu', 'SESSIONTYPE': 'gnome-session', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'QT4_IM_MODULE': 'fcitx', 'XDG_SEAT': 'seat0', 'IM_CONFIG_PHASE': '1', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JOB': 'gnome-session', 'PWD': '/home/liang/work/test/test/test01/build', 'CLUTTER_IM_MODULE': 'xim', 'XMODIFIERS': '@im=fcitx', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'QT_ACCESSIBILITY': '1'}, ['/home/liang/work/test/bitbake/bin/bitbake', 'world']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['world'], 'build']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 68527 at 2019-08-05 11:44:56.488572 ---
+ERROR: The following layer directories do not exist:
+ERROR:    /home/liang/work/test/test/test01/build/../meta-tutorial
+ERROR: Please check BBLAYERS in /home/liang/work/test/test/test01/build/conf/bblayers.conf
+--- Starting bitbake server pid 68564 at 2019-08-05 11:46:20.126333 ---
+Started bitbake server pid 68564
+DEBUG: BBCooker starting 1564976780.139471
+DEBUG: BBCooker pyinotify1 1564976780.1621504
+DEBUG: BBCooker pyinotify2 1564976780.1626248
+DEBUG: BBCooker pyinotify3 1564976780.1821454
+DEBUG: BBCooker pyinotify complete 1564976780.182615
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564976780.209818
+DEBUG: BBCooker startup complete 1564976780.2103071
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'prefile': [], 'dry_run': False, 'abort': True, 'force': False, 'debug': 0, 'invalidate_stamp': None, 'debug_domains': [], 'profile': False, 'server_timeout': None, 'extra_assume_provided': [], 'dump_signatures': [], 'verbose': False, 'postfile': []}, {'GTK2_MODULES': 'overlay-scrollbar', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XAUTHORITY': '/home/liang/.Xauthority', 'OLDPWD': '/home/liang/work/test/test/test01', 'LOGNAME': 'liang', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'UPSTART_JOB': 'unity-settings-daemon', 'QT4_IM_MODULE': 'fcitx', 'HOME': '/home/liang', 'XDG_VTNR': '7', 'GDM_LANG': 'zh_CN', 'XDG_SESSION_DESKTOP': 'ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'LIBGL_ALWAYS_SOFTWARE': '1', 'DISPLAY': ':0', 'UPSTART_EVENTS': 'started starting', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'PWD': '/home/liang/work/test/test/test01/build', 'LC_ALL': 'en_US.UTF-8', 'IM_CONFIG_PHASE': '1', 'XDG_CURRENT_DESKTOP': 'Unity', 'USER': 'liang', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'GTK_IM_MODULE': 'fcitx', 'XDG_SESSION_TYPE': 'x11', 'LANGUAGE': 'zh_CN:zh', 'TERM': 'xterm-256color', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'SESSIONTYPE': 'gnome-session', 'XMODIFIERS': '@im=fcitx', 'JOB': 'gnome-session', 'UPSTART_INSTANCE': '', 'QT_ACCESSIBILITY': '1', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'VTE_VERSION': '4205', 'WINDOWID': '62914570', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'INSTANCE': 'Unity', 'SHLVL': '1', 'CLUTTER_IM_MODULE': 'xim', 'XDG_SEAT': 'seat0', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'GNOME_KEYRING_PID': '', 'GDMSESSION': 'ubuntu', 'XDG_SESSION_ID': 'c2', 'GNOME_KEYRING_CONTROL': '', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LANG': 'zh_CN.UTF-8', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'QT_IM_MODULE': 'fcitx', 'LESSOPEN': '| /usr/bin/lesspipe %s'}, ['/home/liang/work/test/bitbake/bin/bitbake', 'world']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['world'], 'build']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 68573 at 2019-08-05 11:46:28.190087 ---
+Started bitbake server pid 68573
+DEBUG: BBCooker starting 1564976788.202844
+DEBUG: BBCooker pyinotify1 1564976788.2254379
+DEBUG: BBCooker pyinotify2 1564976788.2259958
+DEBUG: BBCooker pyinotify3 1564976788.2463477
+DEBUG: BBCooker pyinotify complete 1564976788.2468448
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564976788.2728727
+DEBUG: BBCooker startup complete 1564976788.2733083
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'abort': True, 'prefile': [], 'dry_run': False, 'server_timeout': None, 'profile': False, 'extra_assume_provided': [], 'invalidate_stamp': None, 'postfile': [], 'debug': 0, 'dump_signatures': [], 'force': False, 'debug_domains': [], 'verbose': False}, {'GDM_LANG': 'zh_CN', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'SHLVL': '1', 'IM_CONFIG_PHASE': '1', 'VTE_VERSION': '4205', 'GDMSESSION': 'ubuntu', 'LANGUAGE': 'zh_CN:zh', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GNOME_KEYRING_CONTROL': '', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'HOME': '/home/liang', 'SESSIONTYPE': 'gnome-session', 'LOGNAME': 'liang', 'XDG_SEAT': 'seat0', 'UPSTART_EVENTS': 'started starting', 'XDG_VTNR': '7', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'USER': 'liang', 'GTK_IM_MODULE': 'fcitx', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CLUTTER_IM_MODULE': 'xim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'LC_ALL': 'en_US.UTF-8', 'GTK2_MODULES': 'overlay-scrollbar', 'PWD': '/home/liang/work/test/test/test01/build', 'JOB': 'gnome-session', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'WINDOWID': '62914570', 'QT4_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'DISPLAY': ':0', 'GNOME_KEYRING_PID': '', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'TERM': 'xterm-256color', 'UPSTART_JOB': 'unity-settings-daemon', 'SHELL': '/bin/bash', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'QT_IM_MODULE': 'fcitx', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XAUTHORITY': '/home/liang/.Xauthority', 'OLDPWD': '/home/liang/work/test/test/test01', 'UPSTART_INSTANCE': '', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'INSTANCE': 'Unity', 'DESKTOP_SESSION': 'ubuntu', 'XDG_SESSION_ID': 'c2', 'LANG': 'zh_CN.UTF-8', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'XDG_SESSION_TYPE': 'x11', 'XDG_CURRENT_DESKTOP': 'Unity', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XMODIFIERS': '@im=fcitx'}, ['/home/liang/work/test/bitbake/bin/bitbake']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['getVariable', 'BBTARGETS']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 68580 at 2019-08-05 11:46:37.005825 ---
+Started bitbake server pid 68580
+DEBUG: BBCooker starting 1564976797.0191329
+DEBUG: BBCooker pyinotify1 1564976797.041741
+DEBUG: BBCooker pyinotify2 1564976797.0422566
+DEBUG: BBCooker pyinotify3 1564976797.0622864
+DEBUG: BBCooker pyinotify complete 1564976797.0627475
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564976797.0892897
+DEBUG: BBCooker startup complete 1564976797.0897446
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'prefile': [], 'extra_assume_provided': [], 'server_timeout': None, 'dump_signatures': [], 'dry_run': False, 'invalidate_stamp': None, 'abort': True, 'profile': False, 'postfile': [], 'force': False, 'debug_domains': [], 'verbose': False, 'debug': 0}, {'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'OLDPWD': '/home/liang/work/test/test/test01', 'XDG_SESSION_DESKTOP': 'ubuntu', 'PWD': '/home/liang/work/test/test/test01/build', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'LOGNAME': 'liang', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'XMODIFIERS': '@im=fcitx', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LIBGL_ALWAYS_SOFTWARE': '1', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'TERM': 'xterm-256color', 'XDG_VTNR': '7', 'GTK_IM_MODULE': 'fcitx', 'QT4_IM_MODULE': 'fcitx', 'DISPLAY': ':0', 'XDG_SESSION_ID': 'c2', 'QT_ACCESSIBILITY': '1', 'XAUTHORITY': '/home/liang/.Xauthority', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'VTE_VERSION': '4205', 'XDG_SESSION_TYPE': 'x11', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'LANG': 'zh_CN.UTF-8', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'INSTANCE': 'Unity', 'UPSTART_JOB': 'unity-settings-daemon', 'LC_ALL': 'en_US.UTF-8', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'CLUTTER_IM_MODULE': 'xim', 'SESSIONTYPE': 'gnome-session', 'UPSTART_INSTANCE': '', 'GDM_LANG': 'zh_CN', 'IM_CONFIG_PHASE': '1', 'LANGUAGE': 'zh_CN:zh', 'XDG_CURRENT_DESKTOP': 'Unity', 'JOB': 'gnome-session', 'QT_IM_MODULE': 'fcitx', 'GNOME_KEYRING_PID': '', 'SHLVL': '1', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'UPSTART_EVENTS': 'started starting', 'SHELL': '/bin/bash', 'HOME': '/home/liang', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'DESKTOP_SESSION': 'ubuntu', 'XDG_SEAT': 'seat0', 'GNOME_KEYRING_CONTROL': '', 'USER': 'liang', 'GTK2_MODULES': 'overlay-scrollbar', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'GDMSESSION': 'ubuntu', 'WINDOWID': '62914570'}, ['/home/liang/work/test/bitbake/bin/bitbake', 'world']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['world'], 'build']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 68588 at 2019-08-05 11:46:58.877229 ---
+Started bitbake server pid 68588
+DEBUG: BBCooker starting 1564976818.899239
+DEBUG: BBCooker pyinotify1 1564976818.9227061
+DEBUG: BBCooker pyinotify2 1564976818.9230921
+DEBUG: BBCooker pyinotify3 1564976818.9436803
+DEBUG: BBCooker pyinotify complete 1564976818.9441593
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564976818.9706054
+DEBUG: BBCooker startup complete 1564976818.9710333
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'force': False, 'extra_assume_provided': [], 'debug_domains': [], 'invalidate_stamp': None, 'dry_run': False, 'server_timeout': None, 'dump_signatures': [], 'postfile': [], 'abort': True, 'prefile': [], 'profile': False, 'verbose': True, 'debug': 3}, {'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'LC_ALL': 'en_US.UTF-8', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'XDG_CURRENT_DESKTOP': 'Unity', 'LOGNAME': 'liang', 'INSTANCE': 'Unity', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LANGUAGE': 'zh_CN:zh', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VTE_VERSION': '4205', 'XDG_SESSION_ID': 'c2', 'HOME': '/home/liang', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'GNOME_KEYRING_CONTROL': '', 'SHLVL': '1', 'TERM': 'xterm-256color', 'LANG': 'zh_CN.UTF-8', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'UPSTART_INSTANCE': '', 'QT4_IM_MODULE': 'fcitx', 'GTK2_MODULES': 'overlay-scrollbar', 'QT_ACCESSIBILITY': '1', 'XDG_SESSION_TYPE': 'x11', 'GDMSESSION': 'ubuntu', 'XAUTHORITY': '/home/liang/.Xauthority', 'PWD': '/home/liang/work/test/test/test01/build', 'UPSTART_JOB': 'unity-settings-daemon', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'XDG_RUNTIME_DIR': '/run/user/1000', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SHELL': '/bin/bash', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'QT_IM_MODULE': 'fcitx', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'DISPLAY': ':0', 'XDG_SEAT': 'seat0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'GDM_LANG': 'zh_CN', 'WINDOWID': '62914570', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'SESSIONTYPE': 'gnome-session', 'UPSTART_EVENTS': 'started starting', 'IM_CONFIG_PHASE': '1', 'JOB': 'gnome-session', 'OLDPWD': '/home/liang/work/test/test/test01', 'XDG_VTNR': '7', 'GTK_IM_MODULE': 'fcitx', 'DESKTOP_SESSION': 'ubuntu', 'XMODIFIERS': '@im=fcitx', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'CLUTTER_IM_MODULE': 'xim', 'USER': 'liang', 'LIBGL_ALWAYS_SOFTWARE': '1', 'GNOME_KEYRING_PID': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'}, ['/home/liang/work/test/bitbake/bin/bitbake', 'world', '-vDDD']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 8, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['world'], 'build']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 68662 at 2019-08-05 11:58:07.730109 ---
+Started bitbake server pid 68662
+DEBUG: BBCooker starting 1564977487.7448502
+DEBUG: BBCooker pyinotify1 1564977487.7679784
+DEBUG: BBCooker pyinotify2 1564977487.7685058
+DEBUG: BBCooker pyinotify3 1564977487.788244
+DEBUG: BBCooker pyinotify complete 1564977487.7887433
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564977487.816889
+DEBUG: BBCooker startup complete 1564977487.817336
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'prefile': [], 'server_timeout': None, 'extra_assume_provided': [], 'dry_run': False, 'postfile': [], 'force': False, 'dump_signatures': [], 'debug': 3, 'verbose': True, 'abort': True, 'debug_domains': [], 'invalidate_stamp': None, 'profile': False}, {'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'XDG_SESSION_ID': 'c2', 'PWD': '/home/liang/work/test/test/test01/build', 'QT_IM_MODULE': 'fcitx', 'GTK_IM_MODULE': 'fcitx', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'CLUTTER_IM_MODULE': 'xim', 'LANG': 'zh_CN.UTF-8', 'VTE_VERSION': '4205', 'XDG_SESSION_TYPE': 'x11', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GDM_LANG': 'zh_CN', 'UPSTART_INSTANCE': '', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'INSTANCE': 'Unity', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'QT4_IM_MODULE': 'fcitx', 'XAUTHORITY': '/home/liang/.Xauthority', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOME': '/home/liang', 'GNOME_KEYRING_PID': '', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'SHELL': '/bin/bash', 'XDG_VTNR': '7', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'TERM': 'xterm-256color', 'GNOME_KEYRING_CONTROL': '', 'QT_ACCESSIBILITY': '1', 'GTK2_MODULES': 'overlay-scrollbar', 'WINDOWID': '62914570', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'UPSTART_EVENTS': 'started starting', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_DESKTOP': 'ubuntu', 'DISPLAY': ':0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'LC_ALL': 'en_US.UTF-8', 'JOB': 'gnome-session', 'XDG_CURRENT_DESKTOP': 'Unity', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'UPSTART_JOB': 'unity-settings-daemon', 'GDMSESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'IM_CONFIG_PHASE': '1', 'LANGUAGE': 'zh_CN:zh', 'LOGNAME': 'liang', 'XDG_SEAT': 'seat0', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'DESKTOP_SESSION': 'ubuntu', 'SHLVL': '1', 'USER': 'liang', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XMODIFIERS': '@im=fcitx', 'SESSIONTYPE': 'gnome-session', 'OLDPWD': '/home/liang/work/test/test/test01', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', '_': '/home/liang/work/test/bitbake/bin/bitbake'}, ['/home/liang/work/test/bitbake/bin/bitbake', 'world', '-vDDD']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 8, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['world'], 'build']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 68880 at 2019-08-05 12:05:58.557349 ---
+Started bitbake server pid 68880
+DEBUG: BBCooker starting 1564977958.5805802
+DEBUG: BBCooker pyinotify1 1564977958.6058779
+DEBUG: BBCooker pyinotify2 1564977958.6064115
+DEBUG: BBCooker pyinotify3 1564977958.6259034
+DEBUG: BBCooker pyinotify complete 1564977958.626401
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564977958.6521435
+DEBUG: BBCooker startup complete 1564977958.6526067
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'force': False, 'server_timeout': None, 'extra_assume_provided': [], 'debug_domains': [], 'debug': 3, 'postfile': [], 'verbose': True, 'abort': True, 'dry_run': False, 'dump_signatures': [], 'prefile': [], 'profile': False, 'invalidate_stamp': None}, {'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XMODIFIERS': '@im=fcitx', 'WINDOWID': '62914570', 'XDG_RUNTIME_DIR': '/run/user/1000', 'QT_IM_MODULE': 'fcitx', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'VTE_VERSION': '4205', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LANGUAGE': 'zh_CN:zh', 'GTK_IM_MODULE': 'fcitx', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'SHELL': '/bin/bash', 'SESSIONTYPE': 'gnome-session', 'XDG_VTNR': '7', 'CLUTTER_IM_MODULE': 'xim', 'XAUTHORITY': '/home/liang/.Xauthority', 'LANG': 'zh_CN.UTF-8', 'LOGNAME': 'liang', 'DISPLAY': ':0', 'XDG_SESSION_ID': 'c2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SEAT': 'seat0', 'GDM_LANG': 'zh_CN', 'DESKTOP_SESSION': 'ubuntu', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'XDG_CURRENT_DESKTOP': 'Unity', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'GTK2_MODULES': 'overlay-scrollbar', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'HOME': '/home/liang', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDMSESSION': 'ubuntu', 'GNOME_KEYRING_CONTROL': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QT4_IM_MODULE': 'fcitx', 'JOB': 'gnome-session', 'USER': 'liang', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'QT_ACCESSIBILITY': '1', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'OLDPWD': '/home/liang/work/test/test/test01', 'TERM': 'xterm-256color', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'UPSTART_JOB': 'unity-settings-daemon', 'GNOME_KEYRING_PID': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PWD': '/home/liang/work/test/test/test01/build', 'INSTANCE': 'Unity', 'UPSTART_INSTANCE': '', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'UPSTART_EVENTS': 'started starting', 'IM_CONFIG_PHASE': '1', 'LC_ALL': 'en_US.UTF-8', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0'}, ['/home/liang/work/test/bitbake/bin/bitbake', 'world', '-vDDD']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 8, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['world'], 'build']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 68984 at 2019-08-05 12:07:14.469157 ---
+Started bitbake server pid 68984
+DEBUG: BBCooker starting 1564978034.48207
+DEBUG: BBCooker pyinotify1 1564978034.504564
+DEBUG: BBCooker pyinotify2 1564978034.505097
+DEBUG: BBCooker pyinotify3 1564978034.5248168
+DEBUG: BBCooker pyinotify complete 1564978034.525324
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564978034.5512528
+DEBUG: BBCooker startup complete 1564978034.5517235
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'postfile': [], 'dry_run': False, 'invalidate_stamp': None, 'server_timeout': None, 'prefile': [], 'debug_domains': [], 'dump_signatures': [], 'verbose': True, 'abort': True, 'extra_assume_provided': [], 'force': False, 'debug': 3, 'profile': False}, {'QT4_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'XDG_SESSION_ID': 'c2', 'QT_ACCESSIBILITY': '1', 'UPSTART_JOB': 'unity-settings-daemon', 'INSTANCE': 'Unity', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'LANG': 'zh_CN.UTF-8', 'XDG_VTNR': '7', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'UPSTART_EVENTS': 'started starting', 'LANGUAGE': 'zh_CN:zh', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VTE_VERSION': '4205', 'UPSTART_INSTANCE': '', 'GNOME_KEYRING_PID': '', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'GTK2_MODULES': 'overlay-scrollbar', 'LC_ALL': 'en_US.UTF-8', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'XDG_CURRENT_DESKTOP': 'Unity', 'HOME': '/home/liang', 'IM_CONFIG_PHASE': '1', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'XDG_SEAT': 'seat0', 'LOGNAME': 'liang', 'GTK_IM_MODULE': 'fcitx', 'LIBGL_ALWAYS_SOFTWARE': '1', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'SHELL': '/bin/bash', 'JOB': 'gnome-session', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GDMSESSION': 'ubuntu', 'CLUTTER_IM_MODULE': 'xim', 'XDG_SESSION_TYPE': 'x11', 'TERM': 'xterm-256color', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'fcitx', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'OLDPWD': '/home/liang/work/test/test/test01', 'DESKTOP_SESSION': 'ubuntu', 'SESSIONTYPE': 'gnome-session', 'XMODIFIERS': '@im=fcitx', 'XAUTHORITY': '/home/liang/.Xauthority', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'PWD': '/home/liang/work/test/test/test01/build', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SHLVL': '1', 'DISPLAY': ':0', 'GDM_LANG': 'zh_CN', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'GNOME_KEYRING_CONTROL': '', 'WINDOWID': '62914570', 'XDG_SESSION_DESKTOP': 'ubuntu', 'USER': 'liang'}, ['/home/liang/work/test/bitbake/bin/bitbake', 'world', '-vDDD']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 8, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['buildTargets', ['world'], 'build']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 69040 at 2019-08-05 12:19:39.191824 ---
+Started bitbake server pid 69040
+DEBUG: BBCooker starting 1564978779.2050488
+DEBUG: BBCooker pyinotify1 1564978779.2284448
+DEBUG: BBCooker pyinotify2 1564978779.2289393
+DEBUG: BBCooker pyinotify3 1564978779.2485707
+DEBUG: BBCooker pyinotify complete 1564978779.249047
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564978779.2754862
+DEBUG: BBCooker startup complete 1564978779.275962
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'dry_run': False, 'invalidate_stamp': None, 'verbose': False, 'force': False, 'postfile': [], 'prefile': [], 'debug': 0, 'profile': False, 'dump_signatures': [], 'extra_assume_provided': [], 'server_timeout': None, 'debug_domains': [], 'abort': True}, {'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'IM_CONFIG_PHASE': '1', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_SEAT': 'seat0', 'UPSTART_EVENTS': 'started starting', 'SESSIONTYPE': 'gnome-session', 'GTK_IM_MODULE': 'fcitx', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'UPSTART_JOB': 'unity-settings-daemon', 'VTE_VERSION': '4205', 'SHLVL': '1', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'XAUTHORITY': '/home/liang/.Xauthority', 'QT4_IM_MODULE': 'fcitx', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LOGNAME': 'liang', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GNOME_KEYRING_CONTROL': '', 'DISPLAY': ':0', 'OLDPWD': '/home/liang/work/test/test/test01', 'DESKTOP_SESSION': 'ubuntu', 'GDM_LANG': 'zh_CN', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_TYPE': 'x11', 'TERM': 'xterm-256color', 'JOB': 'gnome-session', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'CLUTTER_IM_MODULE': 'xim', 'LANGUAGE': 'zh_CN:zh', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'WINDOWID': '62914570', 'HOME': '/home/liang', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'GTK2_MODULES': 'overlay-scrollbar', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'GDMSESSION': 'ubuntu', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'UPSTART_INSTANCE': '', 'LIBGL_ALWAYS_SOFTWARE': '1', 'XDG_SESSION_ID': 'c2', 'GNOME_KEYRING_PID': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_VTNR': '7', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'XMODIFIERS': '@im=fcitx', 'INSTANCE': 'Unity', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PWD': '/home/liang/work/test/test/test01/build', 'QT_IM_MODULE': 'fcitx', 'QT_ACCESSIBILITY': '1', 'USER': 'liang', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'LC_ALL': 'en_US.UTF-8'}, ['/home/liang/work/test/bitbake/bin/bitbake']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['getVariable', 'BBTARGETS']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 69914 at 2019-08-05 16:17:15.287211 ---
+Started bitbake server pid 69914
+DEBUG: BBCooker starting 1564993035.3006046
+DEBUG: BBCooker pyinotify1 1564993035.3236346
+DEBUG: BBCooker pyinotify2 1564993035.324196
+DEBUG: BBCooker pyinotify3 1564993035.3439434
+DEBUG: BBCooker pyinotify complete 1564993035.344448
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564993035.3709726
+DEBUG: BBCooker startup complete 1564993035.3714488
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'extra_assume_provided': [], 'prefile': [], 'profile': False, 'verbose': False, 'dry_run': False, 'abort': True, 'debug_domains': [], 'server_timeout': None, 'dump_signatures': [], 'force': False, 'debug': 0, 'postfile': [], 'invalidate_stamp': None}, {'GDMSESSION': 'ubuntu', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GTK2_MODULES': 'overlay-scrollbar', 'WINDOWID': '62914570', 'GTK_IM_MODULE': 'fcitx', 'GDM_LANG': 'zh_CN', 'JOB': 'gnome-session', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'XDG_SESSION_ID': 'c2', 'GNOME_KEYRING_PID': '', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DISPLAY': ':0', 'USER': 'liang', 'SESSIONTYPE': 'gnome-session', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'DESKTOP_SESSION': 'ubuntu', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'LIBGL_ALWAYS_SOFTWARE': '1', 'XDG_SESSION_TYPE': 'x11', 'XDG_SEAT': 'seat0', 'INSTANCE': 'Unity', 'GNOME_KEYRING_CONTROL': '', 'QT_ACCESSIBILITY': '1', 'LOGNAME': 'liang', 'QT4_IM_MODULE': 'fcitx', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=fcitx', 'HOME': '/home/liang', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SHELL': '/bin/bash', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'SHLVL': '1', 'UPSTART_JOB': 'unity-settings-daemon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'OLDPWD': '/home/liang/work/test/test/test01', 'XDG_VTNR': '7', 'PWD': '/home/liang/work/test/test/test01/build', 'VTE_VERSION': '4205', 'IM_CONFIG_PHASE': '1', 'UPSTART_EVENTS': 'started starting', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'fcitx', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLUTTER_IM_MODULE': 'xim', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'XDG_SESSION_DESKTOP': 'ubuntu', 'LANG': 'zh_CN.UTF-8', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'XAUTHORITY': '/home/liang/.Xauthority', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'UPSTART_INSTANCE': '', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'LANGUAGE': 'zh_CN:zh'}, ['/home/liang/work/test/bitbake/bin/bitbake', '-s']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['getVariable', 'BBTARGETS']
+Running command ['showVersions']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 70073 at 2019-08-05 16:25:38.098857 ---
+Started bitbake server pid 70073
+DEBUG: BBCooker starting 1564993538.116345
+DEBUG: BBCooker pyinotify1 1564993538.1465511
+DEBUG: BBCooker pyinotify2 1564993538.1469302
+DEBUG: BBCooker pyinotify3 1564993538.1663325
+DEBUG: BBCooker pyinotify complete 1564993538.166693
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564993538.191868
+DEBUG: BBCooker startup complete 1564993538.192265
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'debug': 0, 'debug_domains': [], 'postfile': [], 'dump_signatures': [], 'abort': True, 'dry_run': False, 'server_timeout': None, 'force': False, 'extra_assume_provided': [], 'verbose': False, 'prefile': [], 'invalidate_stamp': None, 'profile': False}, {'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_ALL': 'en_US.UTF-8', 'JOB': 'gnome-session', 'XDG_SESSION_TYPE': 'x11', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'LOGNAME': 'liang', 'IM_CONFIG_PHASE': '1', 'OLDPWD': '/home/liang/work/test/test/test01', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'UPSTART_JOB': 'unity-settings-daemon', 'CLUTTER_IM_MODULE': 'xim', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'VTE_VERSION': '4205', 'GDM_LANG': 'zh_CN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SHELL': '/bin/bash', 'UPSTART_INSTANCE': '', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'XDG_SEAT': 'seat0', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_ID': 'c2', 'GNOME_KEYRING_PID': '', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '7', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'QT_ACCESSIBILITY': '1', 'UPSTART_EVENTS': 'started starting', 'LIBGL_ALWAYS_SOFTWARE': '1', 'SESSIONTYPE': 'gnome-session', 'XAUTHORITY': '/home/liang/.Xauthority', 'INSTANCE': 'Unity', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LANGUAGE': 'zh_CN:zh', 'GDMSESSION': 'ubuntu', 'GTK2_MODULES': 'overlay-scrollbar', 'GTK_IM_MODULE': 'fcitx', 'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'GNOME_KEYRING_CONTROL': '', 'PWD': '/home/liang/work/test/test/test01/build', 'SHLVL': '1', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'DISPLAY': ':0', 'DESKTOP_SESSION': 'ubuntu', 'XMODIFIERS': '@im=fcitx', 'PATH': '/home/liang/work/test/bitbake/bin/:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'zh_CN.UTF-8', 'TERM': 'xterm-256color', 'USER': 'liang', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'HOME': '/home/liang', 'WINDOWID': '62914570', 'QT4_IM_MODULE': 'fcitx', 'XDG_CURRENT_DESKTOP': 'Unity', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module'}, ['/home/liang/work/test/bitbake/bin/bitbake', '-s']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['getVariable', 'BBTARGETS']
+Running command ['showVersions']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 70099 at 2019-08-05 16:27:52.397699 ---
+Started bitbake server pid 70099
+DEBUG: BBCooker starting 1564993672.4212878
+DEBUG: BBCooker pyinotify1 1564993672.4462492
+DEBUG: BBCooker pyinotify2 1564993672.446639
+DEBUG: BBCooker pyinotify3 1564993672.4662266
+DEBUG: BBCooker pyinotify complete 1564993672.4665635
+DEBUG: Found bblayers.conf (/home/liang/work/test/test/test01/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/liang/work/test/test/test01/build/../meta-test
+DEBUG: Inheriting /home/liang/work/test/test/test01/build/../meta-test/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/liang/work/test/test/test01/build/tmp/cache/bb_codeparser.dat'
+DEBUG: BBCooker parsed base configuration 1564993672.49124
+DEBUG: BBCooker startup complete 1564993672.4916394
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'force': False, 'debug': 0, 'server_timeout': None, 'extra_assume_provided': [], 'invalidate_stamp': None, 'prefile': [], 'profile': False, 'postfile': [], 'abort': True, 'debug_domains': [], 'dump_signatures': [], 'verbose': False, 'dry_run': False}, {'GPG_AGENT_INFO': '/home/liang/.gnupg/S.gpg-agent:0:1', 'GDM_LANG': 'zh_CN', 'XDG_SESSION_ID': 'c2', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LIBGL_ALWAYS_SOFTWARE': '1', 'PYTHONPATH': '/home/liang/work/test/bitbake/lib:', 'UPSTART_INSTANCE': '', 'OLDPWD': '/home/liang/work/test/test/test01', 'XMODIFIERS': '@im=fcitx', 'WINDOWID': '62914570', 'JOB': 'gnome-session', 'SHLVL': '1', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XAUTHORITY': '/home/liang/.Xauthority', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_VTNR': '7', 'LANGUAGE': 'zh_CN:zh', 'HOME': '/home/liang', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'IM_CONFIG_PHASE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_DESKTOP': 'ubuntu', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1785', 'INSTANCE': 'Unity', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'liang', 'XDG_CURRENT_DESKTOP': 'Unity', 'QT_ACCESSIBILITY': '1', 'QT_IM_MODULE': 'fcitx', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'LANG': 'zh_CN.UTF-8', 'TERM': 'xterm-256color', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'GDMSESSION': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'GNOME_KEYRING_CONTROL': '', '_': '/home/liang/work/test/bitbake/bin/bitbake', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SHELL': '/bin/bash', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-TFhy9Iue99', 'QT4_IM_MODULE': 'fcitx', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DISPLAY': ':0', 'VTE_VERSION': '4205', 'GTK2_MODULES': 'overlay-scrollbar', 'DESKTOP_SESSION': 'ubuntu', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'UPSTART_EVENTS': 'started starting', 'PATH': '/home/liang/work/test/bitbake/bin:/home/liang/bin:/home/liang/.local/bin:/home/liang/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_SEAT': 'seat0', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/liang', 'PWD': '/home/liang/work/test/test/test01/build', 'UPSTART_JOB': 'unity-settings-daemon', 'GNOME_KEYRING_PID': '', 'SESSIONTYPE': 'gnome-session', 'CLUTTER_IM_MODULE': 'xim', 'USER': 'liang'}, ['/home/liang/work/test/bitbake/bin/bitbake', '-s']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['getVariable', 'BBTARGETS']
+Running command ['showVersions']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting

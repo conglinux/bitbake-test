@@ -3,6 +3,7 @@ PR = "r1"
 
 do_build(){
   echo "myvar_sh: ${MYVAR}"
+  echo "myvar_sh: ${GITDIR}"
 }
 
 python do_myvar_py () {
